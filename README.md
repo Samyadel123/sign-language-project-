@@ -27,25 +27,29 @@
 ## 📁 Data Folder Structure
 
 ```
-project-root/
-├─ data/
-│  ├─ raw/
-│  │  ├─ subject_01/
-│  │  └─ subject_02/
-│  ├─ processed/
-│  │  ├─ train/
-│  │  ├─ val/
-│  │  └─ test/
-│  └─ metadata.csv
-├─ src/
-│  ├─ preprocess.py
-│  ├─ train.py
-│  ├─ evaluate.py
-│  └─ mlflow_utils.py
-├─ notebooks/
-├─ models/
-├─ requirements.txt
-└─ README.md
+hand_gesture_recognition/
+│── data/
+│   ├── raw/
+│   ├── processed/
+│   └── labels/
+│
+│── notebooks/
+│
+│── src/
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── model.py
+│   ├── train.py
+│   ├── evaluate.py
+│   ├── predict.py
+│   └── utils.py
+│
+│── models/
+│── results/
+│── requirements.txt
+│── config.yaml
+│── main.py
+│── README.md
 ```
 
 ---
