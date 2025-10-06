@@ -21,8 +21,7 @@ Thumbs.db
 # Logs
 *.log
 
-# Models (big binaries)
-models/*
+
 
 # Datasets (too large for GitHub)
 data/
